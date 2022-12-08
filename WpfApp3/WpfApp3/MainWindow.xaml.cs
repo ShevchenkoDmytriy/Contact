@@ -41,6 +41,10 @@ namespace WpfApp3
             add.Clear();
         }
 
-
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            string phone = add.Text;
+            phones.Remove(phone);
+        }
     }
 }
